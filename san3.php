@@ -1,7 +1,7 @@
 <?php 
 ob_start(); 
-$token = "5286573830:AAEXhbexaS4OMKUthQlE4829NqdGSntw7qM"; # Token
-$user_bot_sudo="Botmakerrgbot";
+$token = "5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M"; # Token
+$user_bot_sudo="cx66bot";
 
 define("API_KEY", $token);
 echo "setWebhook ~> <a href=\"https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."\">https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."</a>";
@@ -57,8 +57,8 @@ $data = $up->data;
 }
 $id = $update->inline_query->from->id; 
 
-$sudo = array("1421137574","1421137574","1421137574");
-$wathq1 = 1421137574; 
+$sudo = array("996435622","5226430730","5226430730");
+$wathq1 = 996435622; 
 
 mkdir("sudo");
 
@@ -76,7 +76,7 @@ $folder="https://kkfkk.ml/san3";
 
 
 
- //1421137574
+ //996435622
 $reply = $message->reply_to_message->message_id;
 $rep = $message->reply_to_message->forward_from; 
 
