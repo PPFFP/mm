@@ -1,7 +1,7 @@
 <?php 
 ob_start(); 
 $token = "5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M"; # Token
-$user_bot_sudo="cx66bot";
+$user_bot_sudo="PPFPBOT";
 
 define("API_KEY", $token);
 echo "setWebhook ~> <a href=\"https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."\">https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']."</a>";
