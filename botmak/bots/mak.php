@@ -2,9 +2,9 @@
 
 ob_start();
 //--------
-$token = "[*[5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M]*]"; # Token
-$tokensan3 = "[*[5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M]*]"; # Token
-$tokensan3plus = "[*[5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M]*]"; # Token
+$token = "5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M"; # Token
+$tokensan3 = "5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M"; # Token
+$tokensan3plus = "5118063671:AAFwHP_fGZ21i53lAmZGXaSh6UYVtZS2j-M"; # Token
 $admin = file_get_contents("admin.txt");
 $sudo = array("$admin","00");
 $infobot=explode("\n",file_get_contents("info.txt"));
